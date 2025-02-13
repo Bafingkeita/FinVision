@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Delphia</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="/src/output.css">
+    <script src='main.js'></script>
+</head>
+<body class="">
+
+
+
+    <form class="rounded mx-auto"   style="width: 500px;">
+        <!--QUESTION 1 TEXT -->
+        <legend>Quel est votre objectif principal en matière d'investissement ?</legend>
+        <input  class="border rounded" type="text" name="goal" id="investissement">
+        <!--QUESTION 2 RADIO -->
+         <fieldset id="q2" class="">
+            <legend>Quelle est votre expérience en investissement ? </legend>
+            <div class="">
+                <input type="radio" name="experience" id="beginner">
+                <label for="beginner">Débutant</label>
+            </div>
+            <div class="">
+                <input type="radio" name="experience" id="intermediate">
+                <label for="intermediate">Intermédiaire</label>
+            </div>
+            <div>
+                <input type="radio" name="experience" id="advanced">
+                <label for="advanced">Avancé</label>
+            </div>
+         </fieldset>
+
+        <!--QUESTION 3 RADIO -->
+        <fieldset id="Q3" class=""> 
+            <legend>Quel est votre horizon de placement ?</legend>
+            <div class="">
+                <input type="radio" name="Q3" id="Q3"> 
+                <label for="Q3"> Court terme : 1 an </label>
+            </div>
+            <div class="">
+                <input type="radio" name="Q3" id="Q3"> 
+                <label for="Q3"> Moyen terme : 1-5 ans </label>
+            </div>
+            <div class="">
+                <input type="radio" name="Q3" id="Q3">
+                 <label for="Q3"> Long terme : >5 ans </label>
+            </div>
+            
+        </fieldset>
+        <!--QUESTION 4 RADIO -->
+        <fieldset id="4" class="">
+            <legend>Quel type d'investisseur êtes-vous ?</legend>
+            <div >
+                 <input type="radio" name="Q4" id="Q4"> 
+                 <label for="Q4"> Conservateur (Faible risque, rendement stable) </label>
+            </div>
+            <div>
+                <input type="radio" name="Q4" id="Q4"> 
+                <label for="Q4">Modéré (Équilibre entre risque et rendement) </label>
+            </div>
+            <div>
+                <input type="radio" name="Q4" id="Q4"> 
+                <label for="Q4"> Agressif (Prêt à prendre des risques pour des rendements élevés) </label>
+            </div>
+            
+        </fieldset>
+        
+         <!--QUESTION 5 RADIO -->
+         <fieldset id="5" class="">
+            <legend>Quelle est votre réaction face à une perte de 20 %  sur votre portefeuille en quelques mois ?</legend>
+            <div>
+                <input type="radio" name="Q5" id="Q5"> 
+                <label for="Q5"> Je vends immédiatement pour limiter les pertes </label>
+            </div>
+            <div>
+                <input type="radio" name="Q5" id="Q5"> 
+                <label for="Q5"> J'attends et j'évalue la situation </label>
+            </div>
+            <div>
+                <input type="radio" name="Q5" id="Q5">
+                 <label for="Q5"> J'achète plus pour profiter des prix bas </label>
+            </div>
+        
+        </fieldset>
+
+            <!--QUESTION 6 CHOIX MULTIPLES -->
+            <fieldset id="6" class="">
+                <legend>Quels secteurs vous intéressent le plus ?</legend>
+         <div>
+                <input type="checkbox" name="Q6" id="Q6">
+                <label>Technologie </label>
+        </div>
+        <div>
+                <input type="checkbox" name="Q6" id="Q6">
+                <label>Santé </label>
+        </div>
+        <div>
+                <input type="checkbox" name="Q6" id="Q6">
+                <label>Énergies renouvelables</label>
+        </div>
+        
+
+        <div>
+                <input type="checkbox" name="Q6" id="Q6">
+                <label>Immobilier</label>
+        </div>
+        <div>
+                <input type="checkbox" name="Q6" id="Q6">
+                <label>Consommation</label>
+        </div>
+        <div>
+                <input type="checkbox" name="Q6" id="Q6">
+                <label>Finance</label>
+        </div>
+         
+            </fieldset>
+
+        <!--QUESTION 7 CHOIX MULTIPLES -->
+
+        <fieldset id="7" class="">
+        <legend>Quels secteurs vous intéressent le plus ?</legend>
+        
+        <div>
+                <input type="checkbox" name="Q7" id="Q7">
+                <label>Buy & Hold (Achat long terme)</label>
+        </div>
+        <div>
+                <input type="checkbox" name="Q7" id="Q7">
+                <label>Trading actif (Court terme)</label>
+        </div>
+        <div>
+                <input type="checkbox" name="Q7" id="Q7">
+                <label>ETF et fonds indiciels</label>
+        </div>
+        <div>
+                <input type="checkbox" name="Q7" id="Q7">
+                <label>Stock picking (Sélection individuelle d'actions)</label>
+        </div>
+        </fieldset>
+        
+        
+
+        
+        <legend>Décrivez votre tolérance au risque et votre vision des marchés financiers.</legend>
+        
+        <div>
+                <textarea class="border rounded " name="Q8" id="" cols="30" rows="10"></textarea>
+        </div>
+
+        
+
+        <legend>Avez-vous des critères spécifiques pour sélectionner vos investissements ? (Exemple : ESG, Valeur de l'entreprise, religion)</legend>
+
+        <div>
+                <textarea class="border rounded " name="Q9" id="" cols="30" rows="10"></textarea>
+        </div>
+
+        
+        <label for="Switch">
+            <div>
+                <input type="checkbox">
+                <label for="Switch">Souhaitez-vous recevoir des recommandations personnalisées basées sur votre profil ?</label>
+            </div>
+            <span class="slider rounded"></span>
+        </label>
+        
+
+        
+    </form>
+
+    
+</body>
+</html>
